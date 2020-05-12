@@ -73,8 +73,40 @@
 // let nome = "Ederson";
 // console.log(nome);
 
-const nome = {nome:'Ederson', sobrenome:'Samuel'};
+// const nome = {nome:'Ederson', sobrenome:'Samuel'};
+// nome.nome = 'Pedro';
+// console.log(nome);
 
-nome.nome = 'Pedro';
+// var nome = "Ederson";
+// var idade = 90;
+// var salvo = true;
+// var cidade;
 
-console.log(nome);
+// var tipo = typeof idade;
+// console.log(tipo);
+
+// document.getElementById("titulo").innerHTML = "Olá, Mundo!";
+
+// var titulo = document.getElementById("titulo");
+// titulo.innerHTML = "Segundo Título";
+
+// var campo = document.getElementById("campo");
+// campo.value = "Ederson";
+
+// var paragrafo = document.getElementById("paragrafo")
+// paragrafo.innerHTML = "Novo Conteúdo";
+
+
+function alterar(titulo) {
+    document.getElementById("titulo").innerHTML = titulo;
+    document.getElementById("campo").innerHTML = titulo;
+}
+
+function somar(x, y) {
+    let total = x + y;
+
+    return total;
+}
+
+var resultado = somar(10, 15);
+console.log(resultado);
